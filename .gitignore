@@ -1,0 +1,21 @@
+# Ignorer les fichiers temporaires LaTeX
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+
+# Ignorer les fichiers temporaires TeX
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# Ignorer les fichiers de sauvegarde d'éditeurs de texte
+*~
+
+# Ignorer les fichiers d'aperçu
+*.pdf
+

@@ -1,0 +1,76 @@
+\documentclass[10pt]{book}
+
+\usepackage[utf8]{inputenc} % encodage de caractères
+\usepackage[T1]{fontenc} % choix de la fonte
+\usepackage[french]{babel} % langue
+\usepackage{graphicx} % images
+\usepackage{hyperref} % liens hypertextes
+\usepackage{color} % couleur
+\usepackage{amsmath} % mathématiques
+\usepackage{indentfirst} % Indenter le premier paragraphe de chaque section
+\usepackage{etoolbox}
+\usepackage{titlesec}
+
+% Change the spacing after chapter
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{-50pt}{20pt} % The last value is the space after the title
+
+
+%\title{L'Informatique Libre : Une Nécessité pour une Communauté Collaborative}
+\title{Au-delà des Codes  : L'informatique libre.}
+\author{Clément \textsc{Agret}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+\large \textbf{Abstract}
+\end{center}
+
+\begin{quotation}
+Cet essai explore l'idée que le travail informatique devrait appartenir à la communauté plutôt qu'à l'individu, mettant en avant la philosophie de l'informatique libre.\\
+Cet essai entreprend une exploration approfondie de la notion selon laquelle le travail informatique, loin d'être une entité privée et individualisée, devrait être envisagé comme un bien collectif, une propriété de la communauté dans son ensemble. Ce point de vue, qui met en lumière la philosophie de l'informatique libre, est ancré dans l'idée que la connaissance, particulièrement dans le domaine de l'informatique, devrait être accessible à tous, favorisant ainsi une collaboration sans entraves et une innovation continue.\\
+
+Dans ce contexte, nous examinerons les divers aspects de la propriété en informatique, depuis la création du code jusqu'à son utilisation finale, en passant par son partage et sa modification. L'informatique, vue sous cet angle, devient un champ de production de connaissances ouvert et en constante évolution, alimenté par le travail collectif d'individus qui partagent une vision commune.\\
+
+Nous mettrons également en avant les principes fondamentaux de l'informatique libre : la liberté d'utiliser le logiciel pour n'importe quel but, la liberté d'étudier son fonctionnement et de l'adapter à ses besoins, la liberté de redistribuer des copies et la liberté de contribuer à son amélioration pour le bien de tous. En explorant ces principes, nous révélerons comment ils peuvent remodeler notre compréhension du travail informatique, transformant une activité souvent perçue comme isolée et propriétaire en un processus collaboratif et partagé.
+\end{quotation}
+
+\newpage
+\chapter*{Introduction}
+\include{sections/introduction}
+\chapter{La Nature Inhérente de la Collaboration en Informatique}
+\include{sections/nature}
+\chapter{L'Impossibilité de la Propriété Privée en Informatique}
+\include{sections/propriete}
+\chapter{Le Principe du Partage des Idées en Informatique Libre}
+\include{sections/nature}
+\chapter{L'Informatique Libre : Bénéfices pour la Communauté}
+\include{sections/benefices}
+
+\chapter*{Conclusion}
+\include{sections/conclusion}
+
+\section*{Remerciements}
+Dans l'acte créatif de la rédaction de cet essai, un certain nombre d'acteurs clés méritent une mention spéciale, même s'ils ne peuvent pas nécessairement apprécier les louanges à leur juste valeur. Ils sont le puissant trio formé par \LaTeX, Vim et ChatGPT.\\
+
+Un merci sincère et non ironique à \LaTeX pour avoir donné une apparence si professionnelle à ce gribouillis numérique, transformant des codes cryptiques en une mise en page qui pourrait faire pâlir d'envie un graphiste chevronné. Si seulement tous les aspects de la vie pouvaient être aussi bien structurés et organisés qu'un document \LaTeX !\\
+
+Ensuite, que dire de Vim, mon compagnon constant de l'édition de texte ? Vous êtes l'épée à double tranchant de l'informatique - tout aussi capable de confondre un débutant par vos commandes obscures qu'enthousiasmant pour un utilisateur expérimenté par votre puissance brute. Merci de m'avoir permis d'éditer de manière efficace et élégante les nombreux documents qui composent cet essai, ainsi que ma thèse et l'ensemble de mes contributions scientifique ou non, bref tout ce que j'écris.\\
+
+Un grand merci aussi à ChatGPT, la magicienne de l'intelligence artificielle, pour sa relecture assidue, ses corrections judicieuses et ses traductions impeccables. Sans vous, je serais probablement encore en train d'essayer de traduire ce texte en plusieurs langues avec la vitesse d'un escargot de course.\\
+
+Enfin, mes remerciements vont à toutes les personnes qui, de près ou de loin, ont contribué à nourrir mes réflexions sur le déterminisme. Que vous soyez une source d'inspiration, une voix critique ou simplement quelqu'un qui m'a écouté, votre contribution a été inestimable. Et à tous ceux qui sont en désaccord avec moi, merci de m'avoir donné quelque chose à réfuter. Après tout, qu'est-ce qu'un essai sans une bonne dose de controverse ?\\
+
+Comment pourrais-je ne pas exprimer ma gratitude envers les principes du logiciel libre et du code open source qui ont été les piliers de ce travail. Merci à la philosophie du logiciel libre, qui nous rappelle que la collaboration, la transparence et la liberté sont bien plus qu'une simple commodité, mais une condition nécessaire pour une véritable innovation en informatique.\\
+
+Chapeau bas également au code open source, qui n'est pas seulement une masse de texte cryptique compréhensible uniquement par les initiés, mais le symbole tangible de la liberté d'apprendre, de partager et de construire sur les idées des autres. C'est grâce à vous que des milliers de programmeurs peuvent contribuer à la croissance d'un écosystème technologique florissant, tout en conservant leur droit à la transparence et à la participation.\\
+
+En résumé, vous êtes tous les véritables MVP (Most Valuable Players) de cet essai. Sans vous, le débat sur l'appropriation du travail informatique et sur la philosophie de l'informatique libre n'aurait pas été aussi riche et profond. Alors, merci pour votre présence silencieuse mais indispensable à chaque étape de ce travail. Vous avez été, et continuez d'être, la preuve vivante que l'innovation ne réside pas seulement dans le travail d'un seul individu, mais dans la collaboration de nombreux acteurs travaillant ensemble vers un objectif commun.\\
+
+\bibliographystyle{plain}
+\bibliography{references} % insérez ici le nom de votre fichier de références BibTeX, sans l'extension .bib
+
+\end{document}
