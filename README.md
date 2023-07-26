@@ -4,13 +4,14 @@ Découvrez comment l'informatique libre transforme la collaboration et favorise 
 ###Description
 
 Découvrez comment l'informatique libre transforme la collaboration et favorise l'innovation dans ce livre complet sur le rôle essentiel de l'informatique libre pour une collaboration et une innovation réussies dans la communauté du développement de logiciels. L'informatique libre et l'éducation sont deux domaines en constante évolution et ce livre fournit des outils pour naviguer avec succès dans ces domaines.
+
 ###Table des Matières
 
-    Introduction
-    La Nature Inhérente de la Collaboration en Informatique
-    L'Impossibilité de la Propriété Privée en Informatique
-    Le Principe du Partage des Idées en Informatique Libre
-    L'Informatique Libre : Bénéfices pour la Communauté
+    [Introduction](sections/introduction)
+    [La Nature Inhérente de la Collaboration en Informatique
+    [L'Impossibilité de la Propriété Privée en Informatique
+    [Le Principe du Partage des Idées en Informatique Libre
+    [L'Informatique Libre : Bénéfices pour la Communauté
 
 ###Comment utiliser ce livre
 
@@ -22,7 +23,7 @@ Nous encourageons les contributions ! Si vous souhaitez ajouter du contenu, corr
 
 ###Licence
 
-Ce livre est mis à disposition sous licence Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International. Pour voir une copie de cette licence, visitez http://creativecommons.org/licenses/by-nc-sa/4.0/ ou écrivez à Creative Commons, PO Box 1866, Mountain View, CA 94042, USA. Pour plus d'informations, veuillez consulter le fichier LICENSE.md.
+Ce livre est mis à disposition sous licence GNU General Public License v3.0 (GPLv3). Pour plus d'informations, veuillez consulter le fichier `LICENSE.md`.
 
 ###Contact
 
