@@ -4,12 +4,12 @@
 Découvrez comment l'informatique libre transforme la collaboration et favorise l'innovation dans ce livre complet sur le rôle essentiel de l'informatique libre pour une collaboration et une innovation réussies dans la communauté du développement de logiciels. L'informatique libre et l'éducation sont deux domaines en constante évolution et ce livre fournit des outils pour naviguer avec succès dans ces domaines.
 
 ## Table des Matières
-- [Introduction](sections/introduction)
-- [La Nature Inhérente de la Collaboration en Informatique](sections/nature)
-- [L'Impossibilité de la Propriété Privée en Informatique](sections/propriete)
-- [Le Principe du Partage des Idées en Informatique Libre](sections/partage)
-- [L'Informatique Libre : Bénéfices pour la Communauté](sections/benefices)
-- [Conclusion](sections/conclusion)
+- [Introduction](sections/introduction.tex)
+- [La Nature Inhérente de la Collaboration en Informatique](sections/nature.tex)
+- [L'Impossibilité de la Propriété Privée en Informatique](sections/propriete.tex)
+- [Le Principe du Partage des Idées en Informatique Libre](sections/partage.tex)
+- [L'Informatique Libre : Bénéfices pour la Communauté](sections/benefices.tex)
+- [Conclusion](sections/conclusion.tex)
 
 ## Comment utiliser ce livre
 Ce livre est destiné aux enseignants, aux étudiants et aux professionnels de l'informatique qui souhaitent comprendre comment l'informatique libre peut être utilisée pour améliorer l'éducation. Vous pouvez lire ce livre dans l'ordre, ou sauter à n'importe quel chapitre qui vous intéresse.
