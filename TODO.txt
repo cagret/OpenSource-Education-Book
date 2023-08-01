@@ -1,0 +1,20 @@
+\begin{verbatim}
+sections/introduction.tex:\section{Introduction aux logiciels libres et Open Source}
+sections/nature.tex:\section{Travail d'équipe et coopération}
+sections/nature.tex:\section{Partage des connaissances}
+sections/nature.tex:\section{Normes et protocoles}
+sections/nature.tex:\section{Recherche scientifique}
+sections/benefices.tex:\section{Innovation et Créativité}
+sections/benefices.tex:\section{Éducation et Formation}
+sections/benefices.tex:\section{Égalité d'Accès}
+sections/partage.tex:\section{Collaboration et innovation}
+sections/partage.tex:\section{Transparence, Fiabilité et Sécurité}
+sections/partage.tex:\section{Éducation et autonomisation}
+sections/partage.tex:\section{Démocratisation de la technologie}
+sections/propriete.tex:\section{La nature non-physique des produits informatiques}
+sections/propriete.tex:\section{La pratique de l'open source }
+sections/propriete.tex:\section{Les questions de piratage et de sécurité}
+sections/propriete.tex:\section{Promotion de l'innovation}
+sections/propriete.tex:\section{Durable et adaptable}
+sections/conclusion.tex:\section{Résumé et perspectives d'avenir}
+\end{verbatim}
