@@ -21,7 +21,7 @@ Nous encourageons les contributions ! Si vous souhaitez ajouter du contenu, corr
 Ce livre est sous licence GNU General Public License v3.0 (GPLv3). Pour plus d'informations, veuillez consulter le fichier [`LICENSE.md`](LICENSE.md).
 
 ## Contact
-Si vous avez des questions ou des commentaires, n'hésitez pas à nous contacter par courriel à opensource.education.book@gmail.com
+Si vous avez des questions ou des commentaires, n'hésitez pas à nous contacter par courriel à opensource.education.book@mailo.com
 
 Nous espérons que ce livre vous aidera à mieux comprendre comment l'informatique libre peut transformer la collaboration et l'innovation dans l'éducation. Bonne lecture !
 
